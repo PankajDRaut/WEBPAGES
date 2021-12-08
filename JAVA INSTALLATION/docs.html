@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ubuntu</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Install Java </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Head -->
+    <section class="docs-head bg-primary py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="xl">Java</h1>
+                <p class="lead">
+                    Learn how to install Java in Ubuntu
+                </p>
+            </div>
+            <img src="images/docs.png" alt="">
+        </div>
+    </section>
+
+    <!-- Docs main -->
+    <section class="docs-main my-4">
+        <div class="container grid">
+            <div class="card bg-light p-3">
+                <h3 class="my-2">Essentials</h3>
+                <nav>
+                    <ul>
+                        <li><a class="text-primary" href="#">Introduction</a></li>
+                        <li><a href="#">About JAVA</a></li>
+                        <li><a href="#">Installation</a></li>
+                    </ul>
+                </nav>
+
+                <h3 class="my-2">Deployment</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Setting up a container</a></li>
+							<li><a href="#">Managing resources</a></li>
+							<li><a href="#">Upgrade & downgrade</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="card">
+                <h2>Introduction</h2>
+                <p>Java is one of the most popular programming languages. It is used for developing anything from lightweight mobile to desktop applications.
+
+This step-by-step guide will show you how simple it is to install Java on Ubuntu 18.04 or 20.04.</p>
+
+                <div class="alert alert-success">
+                    <i class="fas fa-info"></i>Note: This guide provides instructions that work on Ubuntu 18.04, Ubuntu 20.04 and any other Ubuntu-based distribution
+                </div>
+
+                <h3>Installing Java on Ubuntu</h3>
+                <p>You can install one or several Java packages. You can also decide which version you want on your system by installing a specific version number. The current default and LTS version is Java 11.</p>
+                <a href="#" class="btn btn-primary">Install JDK</a>
+
+                <h3>Requirements</h3>
+                <ul>
+                    <li>Linux , ubuntu</li>
+                </ul>
+
+                <h3>Install OpenJDK</h3>
+                <p>1. Open the terminal (Ctrl+Alt+T) and update the package repository to ensure you download the latest software version:</p>
+                <pre><code>$sudo apt update</code></pre>
+                <p>2. Then, you can confidently install the latest Java Development Kit with the following command:</p>
+                <pre><code>$ sudo apt install default-jre</code></pre>
+                <p>3. Confirm the installation by typing y (yes) and press Enter.</p>
+               
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Loruki
+                </h1>
+                <p>Copyright &copy; 2020</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
